@@ -1,0 +1,9 @@
+{
+  "name": "cline-bash-timeout",
+  "version": "1.0.0",
+  "description": "Raise the hard-coded 30 s shell command timeout of the standalone Cline CLI (cline/cline#10549)",
+  "bin": { "cline-bash-timeout": "bin/cline-bash-timeout.js" },
+  "files": ["bin/", "README.md"],
+  "engines": { "node": ">=16" },
+  "license": "MIT"
+}
